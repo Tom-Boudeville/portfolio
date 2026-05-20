@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="relative z-20 flex w-full h-20 shadow-sm overflow-hidden">
+    <header className=" flex w-full h-20 shadow-sm overflow-hidden">
       <div className="flex-1 flex items-center px-8 md:px-16">
         <span className="text-2xl font-bold">Madelyn Torff</span>
       </div>
