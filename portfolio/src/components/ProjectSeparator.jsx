@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectSeparator() {
   return (
-    <div className="flex flex-col items-center" style={{ marginTop: "250px" }}>
+    <div className="flex flex-col items-center w-full mb-8">
       <h2 className="text-4xl font-bold font-serif text-gray-900 mb-2">
         Projects
       </h2>
