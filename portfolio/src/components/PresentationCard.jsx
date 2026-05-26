@@ -8,15 +8,15 @@ export default function PresentationCard() {
         <p className="font-bold font-extrabold text-6xl">
           Hello, my name is Madelyn Torff
         </p>
-        <p>
+        <p className="text-gray-400">
           Short text with details about you, what you do or your professional
           career. You can add more information on the about page.
         </p>
         <div className="flex space-x-4 mt-4">
-          <button className="bg-primary font-bold py-1 px-4 rounded">
+          <button className="bg-primary font-bold py-1 px-4 rounded shadow-md">
             Project
           </button>
-          <button className="font-bold border-2 border-dark py-1 px-4 rounded">
+          <button className="font-bold border-2 border-dark py-1 px-4 rounded shadow-md">
             Linkedin
           </button>
         </div>
