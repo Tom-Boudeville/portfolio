@@ -10,8 +10,8 @@ export default function Header() {
 
       <nav className="flex-1 flex items-center justify-end px-8 md:px-16 space-x-8">
         <Link to="/about">About</Link>
-        <a href="#projects">Projects</a>
-        <a href="#contacts">Contacts</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#contacts">Contacts</a>
       </nav>
     </header>
   );
