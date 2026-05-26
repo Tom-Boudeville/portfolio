@@ -8,7 +8,7 @@ export default function Header() {
         <span className="text-2xl font-bold">Madelyn Torff</span>
       </div>
 
-      <nav className="flex-1 flex items-center justify-end px-8 md:px-16 space-x-8">
+      <nav className="flex-1 flex items-center justify-end px-8 md:px-32 space-x-16 text-lg">
         <Link to="/about">About</Link>
         <a href="/#projects">Projects</a>
         <a href="/#contacts">Contacts</a>

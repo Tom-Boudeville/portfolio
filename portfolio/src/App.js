@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div style={{ backgroundColor: "#F9FAFF" }}>
-        <div className="relative max-w-[1920px] mx-auto overflow-hidden">
+        <div className="relative max-w-[1600px] mx-auto overflow-hidden">
           <Header />
           <Routes>
             <Route

@@ -6,7 +6,7 @@ export default function ProjectPresentationPart() {
   return (
     <section
       id="projects"
-      className="w-full px-8 md:px-16 mt-[250px] flex flex-col space-y-12 max-w-6xl mx-auto"
+      className="w-full px-8 md:px-16 mt-[100px] flex flex-col space-y-12 max-w-6xl mx-auto"
     >
       <ProjectSeparator />
       <Project

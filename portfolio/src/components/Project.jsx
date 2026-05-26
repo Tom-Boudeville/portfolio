@@ -19,10 +19,12 @@ export default function Project({
 
       {/* Contenu texte */}
       <div className="w-1/2 p-4 flex flex-col justify-center items-center">
-        <div className="flex flex-col" style={{ width: "80%" }}>
-          <h3 className="text-2xl font-bold mb-2">{title}</h3>
-          <p className="text-gray-400 mb-4">{description}</p>
-          <button className="text-dark font-bold py-2 px-4 border-2 border-dark rounded-3xl w-fit">
+        <div className="flex flex-col space-y-6" style={{ width: "80%" }}>
+          <h3 className="text-2xl font-bold mb-2 text-4xl font-playfair">
+            {title}
+          </h3>
+          <p className="text-gray-400 mb-4 text-lg">{description}</p>
+          <button className="text-dark font-bold py-2 px-6 border-2 border-dark rounded-3xl w-fit">
             View Project
           </button>
         </div>

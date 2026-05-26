@@ -13,7 +13,9 @@ module.exports = {
       },
       fontFamily: {
         serif: ['"Playfair Display"', "serif"],
-        sans: ["Nunito", "sans-serif"],
+        nunito: ["Nunito", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        playfair: ['"Playfair Display"', "serif"],
       },
       maxWidth: {
         container: "1140px",
